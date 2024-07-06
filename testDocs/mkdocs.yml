@@ -1,0 +1,33 @@
+# Project information
+site_name: 'Interior Design Studio'
+site_description: '私たちの内装デザインサービスで理想の空間を実現します。'
+site_author: 'InteriorDesignStudio'
+site_url: 'http://www.interior-design-studio.com'
+
+# Copyright
+copyright: 'Copyright (c) 2024 Interior Design Studio'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 'material'
+
+# Options
+extra:
+  palette:
+    primary: 'Deep Blue'
+    accent: 'Warm Gray'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: '前のページ'
+    next: '次のページ'
+  author:
+    github: 'interior-design-studio'
+    twitter: 'interior_studio'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: '#'
